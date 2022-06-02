@@ -1,0 +1,110 @@
+.mart {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  &__item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    padding-top: 24px;
+  }
+  &__item_img_box {
+    width: 112px;
+    height: 112px;
+    margin-left: 60px;
+    img {
+      width: 112px;
+      height: 112px;
+      object-fit: cover;
+    }
+  }
+}
+.martitem__user_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  h4 {
+    font-size: 15px;
+    line-height: 20px;
+    color: #292929;
+    margin-left: 12px;
+    span {
+      color: #757575;
+    }
+  }
+}
+.martitem__title {
+  font-size: 22px;
+  line-height: 25px;
+  color: #292929;
+  margin-bottom: 8px;
+}
+.martitem__desc {
+  font-size: 16px;
+  line-height: 20px;
+  color: #292929;
+  font-family: serif;
+}
+.mart__item_box {
+  width: 100%;
+}
+.martitem__btn_read {
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.martiem__btn_box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.martitem__catBtn {
+  width: auto;
+  text-align: right;
+  margin-left: auto;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 2px 8px;
+  border-radius: 100px;
+  transition: all 0.2s ease;
+  color: rgba(41, 41, 41, 1);
+  background-color: rgba(242, 242, 242, 1);
+
+  &:hover {
+    background-color: rgb(230, 230, 230);
+  }
+}
+
+.martitem__read {
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: 12px;
+  color: #757575;
+}
+.martitem__saveBtn,
+.martitem__menuBtn {
+  border: none;
+  background: transparent;
+  color: #292929;
+  font-size: 20px;
+  margin: 0 5px;
+}

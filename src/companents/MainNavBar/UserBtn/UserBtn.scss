@@ -1,0 +1,17 @@
+.mleft__user {
+  width: 100%;
+  margin-left: auto;
+  text-align: center;
+  margin-bottom: 16px;
+  button {
+    border: none;
+    background: transparent;
+    border-radius: 50%;
+    img {
+      width: 32px;
+      height: 32px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+}

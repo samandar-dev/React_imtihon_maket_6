@@ -1,0 +1,36 @@
+.mcon__categor {
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 24px;
+}
+.mcon__list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -8px;
+  margin-right: -8px;
+  align-items: center;
+  list-style-type: none;
+}
+.mcon__item {
+  margin: 0 8px;
+}
+.mcon__btn {
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 8px 16px;
+  border-radius: 100px;
+  transition: all 0.2s ease;
+  color: rgba(41, 41, 41, 1);
+  background-color: rgba(242, 242, 242, 1);
+
+  &:hover {
+    background-color: rgb(230, 230, 230);
+  }
+}
